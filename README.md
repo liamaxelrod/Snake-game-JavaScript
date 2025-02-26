@@ -11,3 +11,5 @@ https://www.youtube.com/watch?v=uyhzCBEGaBY
 I wanted to increase my familiarize with JavaScript
 
 ## Link to the game
+
+https://snake-game-java-script-one.vercel.app/

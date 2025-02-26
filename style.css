@@ -87,4 +87,8 @@ body,
 
 #logo {
     position: absolute;
+    height: 30%;
+    width: 30%;
+    max-height: 200px;
+    max-width: 200px;
 }

@@ -14,7 +14,7 @@ let food = generateFood();
 let highScore = 0;
 let direction = 'right';
 let gameInterval;
-let gameSpeedDelay = 200;
+let gameSpeedDelay = 350;
 let gameStartrd = false;
 
 // draw game map. snake, food
@@ -148,13 +148,13 @@ document.addEventListener('keydown', handleKeyPress);
 
 function increaseSpeed() {
     console.log(gameSpeedDelay);
-    if (gameSpeedDelay > 150) {
+    if (gameSpeedDelay > 250) {
         gameSpeedDelay -= 5;
-    } else if (gameSpeedDelay > 100) {
+    } else if (gameSpeedDelay > 200) {
         gameSpeedDelay -= 3;
-    } else if (gameSpeedDelay > 50) {
+    } else if (gameSpeedDelay > 150) {
         gameSpeedDelay -= 2;
-    } else if (gameSpeedDelay > 25) {
+    } else if (gameSpeedDelay > 100) {
         gameSpeedDelay -= 1;
     }
 }
